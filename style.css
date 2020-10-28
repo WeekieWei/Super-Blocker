@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+div{
+    height: 150px;
+    width: 250px;
+    
+}
+
+.fade{
+    background-image: url('image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+header{
+    padding: 10px 10px 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.description{
+    margin: 10px;
+    font-size: 13px;
+    font-weight: 200;
+    opacity: 1;
+    text-align: center;
+}

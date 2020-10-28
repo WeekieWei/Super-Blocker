@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "SuperBlocker",
+    "description": "This extension will analyze a page to phising registry",
+    "version": "1.0",
+
+
+    "browser_action":{
+        "default_icon" : {
+            "16": "image/icon16.png",
+            "48": "image/icon48.png",
+            "128": "image/icon128.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "background":
+    {
+        "scripts": ["jquery.min.js", "popup.js"]
+    },
+
+    "content_scripts":[
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            
+
+            "js": ["jquery.min.js"]
+        }
+    ],
+
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
