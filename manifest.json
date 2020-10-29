@@ -16,7 +16,7 @@
 
     "background":
     {
-        "scripts": ["jquery.min.js", "popup.js"]
+        "scripts": ["jquery.js", "popup.js"]
     },
 
     "content_scripts":[
@@ -26,7 +26,7 @@
             ],
             
 
-            "js": ["jquery.min.js"]
+            "js": ["jquery.js"]
         }
     ],
 
